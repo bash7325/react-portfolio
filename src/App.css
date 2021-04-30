@@ -18,7 +18,8 @@
   }
   
   .projects {
-    background-image: url('/images/smartphone.jpg');
+    background-image: url('./images/smartphone.jpg');
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,16 +28,18 @@
   }
   
   .about {
-    background-image: url('/images/self.jpg');
+    background-image: url('./images/self.jpg');
+    background-attachment: fixed;
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
   
   .contact {
-    background-image: url('/images/test.jpg');
+    background-image: url('./images/test.jpg');
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
