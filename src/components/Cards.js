@@ -9,7 +9,12 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-              <CardItem />
+              <CardItem
+              src="images/projects-link.jpg"
+              text="Click to see my work"
+              label="Projects"
+              path='/projects'
+              />
           </ul>
         </div>
       </div>
