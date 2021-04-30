@@ -15,6 +15,38 @@ function Cards() {
               label="Projects"
               path='/projects'
               />
+              <CardItem
+              src="images/projects-link.jpg"
+              text="Click to see my work"
+              label="Projects"
+              path='/projects'
+              />
+              <CardItem
+              src="images/projects-link.jpg"
+              text="Click to see my work"
+              label="Projects"
+              path='/projects'
+              />
+          </ul>
+          <ul className="cards__items">
+              <CardItem
+              src="images/projects-link.jpg"
+              text="Click to see my work"
+              label="Projects"
+              path='/projects'
+              />
+              <CardItem
+              src="images/projects-link.jpg"
+              text="Click to see my work"
+              label="Projects"
+              path='/projects'
+              />
+              <CardItem
+              src="images/projects-link.jpg"
+              text="Click to see my work"
+              label="Projects"
+              path='/projects'
+              />
           </ul>
         </div>
       </div>
