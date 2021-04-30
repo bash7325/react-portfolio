@@ -5,13 +5,10 @@ import { Link } from 'react-router-dom';
 
 function ContactCard() {
   return (
-    <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+    <div className='contact-container'>
+      <section className='contact-subscription'>
+        <p className='contact-subscription-heading'>
+          Questions?  Please contact me using the form below
         </p>
         <div className='input-areas'>
           <form>
@@ -21,7 +18,7 @@ function ContactCard() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Send</Button>
           </form>
         </div>
       </section>

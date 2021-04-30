@@ -1,11 +1,50 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 function Footer() {
-    return (
-        <div className="footer-container">
-            
+  return (
+    <div className='footer-container'>
+      <section class='social-media'>
+        <div class='social-media-wrap'>
+          <div class='footer-logo'>
+            <Link to='/' className='social-logo'>
+              Thanks for Visiting
+              <i class='' />
+            </Link>
+          </div>
+          <small class='website-rights'>Check out my Github, download my resume from Drive and visit my Linkedin for more</small>
+          <div class='social-icons'>
+            <Link
+              class='social-icon-link instagram'
+              to='/'
+              target='_blank'
+              aria-label='github'
+            >
+              <i class='fab fa-github' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              <i class='fab fa-google-drive' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i class='fab fa-linkedin' />
+            </Link>
+          </div>
         </div>
-    )
+      </section>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
