@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
+    <>
+    <hr />
     <div className='footer-container'>
       <section class='social-media'>
         <div class='social-media-wrap'>
@@ -43,6 +45,7 @@ function Footer() {
         </div>
       </section>
     </div>
+    </>
   );
 }
 
