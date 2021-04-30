@@ -6,7 +6,9 @@ import Footer from '../Footer'
 function Home () {
     return (
         <>
+        <hr />
         <HeroSection />
+        <hr />
         <Footer />
         </>
     )

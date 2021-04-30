@@ -1,7 +1,6 @@
 import React from 'react';
 import './ContactCard.css';
 import { Button } from './Button';
-import { Link } from 'react-router-dom';
 
 function ContactCard() {
   return (
@@ -13,7 +12,7 @@ function ContactCard() {
         <div className='input-areas'>
           <form>
             <input
-              className='footer-input'
+              className='email-input'
               name='email'
               type='email'
               placeholder='Your Email'

@@ -16,6 +16,11 @@
     justify-content: center;
     font-size: 3rem;
   }
+
+  hr {
+    height: 5px;
+    background: #fff;
+  }
   
   .projects {
     background-image: url('./images/smartphone.jpg');
