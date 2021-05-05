@@ -5,8 +5,9 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
+    <>
+    <hr />
     <div className="about-container">
-      <h1>Hello</h1>
       <p>
         A current student in the University of Utah’s full stack web development
         bootcamp currently honing skills in HTML, CSS, Javascript, popular
@@ -14,7 +15,7 @@ function AboutMe() {
         from leading teams as an Executive Chef and manager in high volume, fine
         dining restaurants to complex problem solving and situational awareness
         as an EMT. I am passionate about creating experiences that are elevated
-        for the user and the process that goes into reaching that goal. I am
+        for the user and t he process that goes into reaching that goal. I am
         eager to combine my background in leadership and problem solving with my
         newly acquired technical skills to help grow capable, dynamic teams and
         build great applications.
@@ -36,6 +37,7 @@ function AboutMe() {
         </Button>
       </div>
     </div>
+    </>
   );
 }
 
