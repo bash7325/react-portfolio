@@ -1,3 +1,4 @@
+
 video {
     object-fit: cover;
     width: 100%;
@@ -6,8 +7,8 @@ video {
     z-index: -1;
 }
 
-.hero-container {
-    /* background: url("../../public/images/img-home.jpg") center center/cover no-repeat; */
+.about-container {
+    background: url("../images/projects-link.jpg");
     height: 100vh;
     width: 100%;
     display: flex;
@@ -16,18 +17,20 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
     justify-content: center;
+    text-align: center;
+    padding: 50px;
 }
 
-.hero-container > h1 {
+.about-container > h1 {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
 }
 
-.hero-container > p {
+.about-container > p {
     margin-top: 8px;
     color: #fff;
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 8px;
 }
 
@@ -37,7 +40,7 @@ video {
 
 @media screen and (max-width: 960px) {
     .hero-container > h1 {
-        font-size: 70px;
+        font-size: 24px;
         margin-top: -150px;
     }
 }
@@ -49,7 +52,7 @@ video {
     }
 
     .hero-container > p {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .btn-mobile {
