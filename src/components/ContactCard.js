@@ -7,7 +7,8 @@ function ContactCard() {
     <div className='contact-container'>
       <section className='contact-subscription'>
         <p className='contact-subscription-heading'>
-          Questions?  Please contact me using the form below
+          <p>Questions?  Please contact me using the form below</p>
+          Email me at: bash7325@gmail.com or call/text at: 435-503-6255
         </p>
         <div className='input-areas'>
           <form>
