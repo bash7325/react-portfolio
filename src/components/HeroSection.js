@@ -6,7 +6,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/bkgrd-video.mp4" autoPlay loop muted />
+      <video src="https://react-portfolio-video.s3-us-west-1.amazonaws.com/bkgrd-video.mp4" autoPlay loop muted />
       <h1>Hello</h1>
       <p>I'm Brandon</p><p> Welcome to my portfolio</p>
       <div className="hero-btns">
