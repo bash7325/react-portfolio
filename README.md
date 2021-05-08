@@ -26,4 +26,4 @@
 
 # Screenshot
 
-[Home](https://i.imgur.com/pHhsSAh.png)
+![Home](https://i.imgur.com/pHhsSAh.png)
