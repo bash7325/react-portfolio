@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import '../Contact.css'
 import ContactCard from '../ContactCard'
 import Footer from '../Footer'
 

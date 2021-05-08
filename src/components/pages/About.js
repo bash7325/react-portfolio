@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import '../AboutMe.css'
 import Footer from '../Footer'
 import AboutMe from '../AboutMe'
 // import ScrollBtn from '../ScrollBtn'
