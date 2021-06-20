@@ -22,13 +22,13 @@ function sendEmail(e) {
           <p>Questions?  Please contact me using the form below</p>
         </p>
         <div className='input-areas'>
-    <form className="contact-form email-input" onSubmit={sendEmail}>
+    <form className="contact-form" onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input className='email-input' type="text" name="user_name" />
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input className='email-input' type="email" name="user_email" />
       <label>Message</label>
-      <textarea name="message" />
+      <textarea className='email-input' name="message" />
       <input className='btn--outline btn--large btn' type="submit" value="Send" />
     </form>
     </div>
