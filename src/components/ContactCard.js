@@ -17,16 +17,24 @@ function sendEmail(e) {
       });
   }
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
+    <div className="contact-container">
+      <section className='contact-subscription'>
+        <p className='contact-subscription-heading'>
+          <p>Questions?  Please contact me using the form below</p>
+        </p>
+        <div className='input-areas'>
+    <form className="contact-form email-input" onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <Button buttonStyle='btn--outline' type="submit" value="Send">Send</Button>
     </form>
+    </div>
+    </section>
+    </div>
   );
   }
 
