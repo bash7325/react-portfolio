@@ -6,37 +6,31 @@ import "./AboutMe.css";
 function AboutMe() {
   return (
     <>
-    <hr />
-    <div className="about-container">
-      <p>
-        A current student in the University of Utah’s full stack web development
-        bootcamp currently honing skills in HTML, CSS, Javascript, popular
-        frameworks and third-party API’s. I have a rich work history varying
-        from leading teams as an Executive Chef and manager in high volume, fine
-        dining restaurants to complex problem solving and situational awareness
-        as an EMT. I am passionate about creating experiences that are elevated
-        for the user and t he process that goes into reaching that goal. I am
-        eager to combine my background in leadership and problem solving with my
-        newly acquired technical skills to help grow capable, dynamic teams and
-        build great applications.
-      </p>
-      <p>
-        I love to spend time with my dog, Riley and my family. I enjoy exploring
-        the mountains and deserts of Utah hiking, backpacking, paddle boarding
-        and fishing. I am intrigued by anything tech related. I love hands on
-        activities i.e. gaming, tinkering with computers, woodwork and working
-        on cars to name a few.
-      </p>
-      <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
-          CONTACT ME
-        </Button>
+      <hr />
+      <div className="about-container">
+        <p>
+          A recent graduate of the University of Utah's Full Stack Web
+          Development program. I am currently working as a developer focused on
+          maintaining and building front-end applications in HTML/CSS, SQL, C#
+          and Javascript. I am also studying AWS, React and Python. I've been
+          able to apply my new knowledge to personal projects and hobbies.
+        </p>
+        <p>
+          I enjoy exploring the mountains and deserts of Utah hiking,
+          backpacking, paddle boarding and fishing. I am intrigued by anything
+          tech related. I love hands on activities i.e. gaming, tinkering with
+          computers, woodwork and working on cars to name a few.
+        </p>
+        <div className="hero-btns">
+          <Button
+            className="btns"
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+          >
+            CONTACT ME
+          </Button>
+        </div>
       </div>
-    </div>
     </>
   );
 }
