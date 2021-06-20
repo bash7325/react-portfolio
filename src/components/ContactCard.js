@@ -1,6 +1,5 @@
 import React from 'react';
 import './ContactCard.css';
-import { Button } from './Button';
 import emailjs from 'emailjs-com';
 
 
@@ -30,7 +29,7 @@ function sendEmail(e) {
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <Button buttonStyle='btn--outline' type="submit" value="Send">Send</Button>
+      <input className='btn--outline btn--large btn' type="submit" value="Send" />
     </form>
     </div>
     </section>
