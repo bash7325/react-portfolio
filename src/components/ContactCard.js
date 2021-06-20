@@ -19,16 +19,16 @@ function sendEmail(e) {
     <div className="contact-container">
       <section className='contact-subscription'>
         <p className='contact-subscription-heading'>
-          <p>Questions?  Please contact me using the form below</p>
+          <p>Questions? Please contact me using the form below</p>
         </p>
         <div className='input-areas'>
     <form className="contact-form" onSubmit={sendEmail}>
-      <label>Name</label>
+      <label>Your Name</label>
       <input className='email-input' type="text" name="user_name" />
-      <label>Email</label>
+      <label>Your Email Address</label>
       <input className='email-input' type="email" name="user_email" />
-      <label>Message</label>
-      <textarea className='email-input' name="message" />
+      <label>Your Message</label>
+      <textarea className='email-input message' name="message" />
       <input className='btn--outline btn--large btn' type="submit" value="Send" />
     </form>
     </div>

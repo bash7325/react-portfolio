@@ -10,7 +10,6 @@
   .email-input {
     padding: 8px 20px;
     border-radius: 2px;
-    margin-right: 10px;
     outline: none;
     border: none;
     font-size: 18px;
@@ -77,4 +76,12 @@ transition: all 0.3s ease-out;
     color: #242424;
     transition: all 0.3s ease-out;
 }
-  
+
+.contact-form {
+  display: grid;
+}
+
+ .message {
+height: 200px;
+width: 400px;
+ } 
