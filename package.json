@@ -13,6 +13,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-scroll-button": "^1.1.2",
+    "react-simple-modal-provider": "^1.6.4",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
