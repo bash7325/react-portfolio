@@ -17,7 +17,7 @@ function AboutMe() {
         </p>
         <p>
           I enjoy exploring the mountains and deserts of Utah hiking,
-          backpacking, paddle boarding and fishing. I love hands on activities i.e. gaming, building
+          backpacking, paddle boarding and fishing. Avid reader of non-fiction and a podcast consumer. I love hands on activities i.e. gaming, building
           computers, woodwork and working on cars to name a few.
         </p>
         <div className="hero-btns">
