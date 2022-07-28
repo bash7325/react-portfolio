@@ -4,7 +4,7 @@
 
 # Deployed link
 
-- [Brandon Ashby's React Portfolio](https://main.d24mb3t7rhm1i3.amplifyapp.com/)
+- [Brandon Ashby's React Portfolio](https://main.d3sjynstqvjr1e.amplifyapp.com/)
 
 # Technologies used
 
